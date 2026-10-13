@@ -1,136 +1,137 @@
-<div align="center">
-
-![Profile Banner](https://readme-typing-svg.demolab.com?font=Courier+New&size=35&duration=4000&pause=1000&color=00F5A0&center=true&vCenter=true&width=900&lines=SECURITY+OPERATIONS+CENTER;Threat+Detection;Learning+How+to+Learn)
-
-</div>
-
----
-
-## 🎯 Refocus: Learning How to Learn (SOC Journey)
-
-I'm a cybersecurity practitioner shifting my primary goal from showing skills to learning how to learn deeply. My current mission is to reduce distractions, regain sustained focus, and build a complete, practical understanding of Security Operations Center (SOC) work — from data collection to detection engineering and incident response.
-
-This README documents my learning system, weekly rhythm, roadmap, and the projects I use to practice what I learn.
-
----
-
-## 🧭 Learning Philosophy
-
-- Prioritize depth over breadth: focus on one topic at a time with deliberate practice and feedback.
-- Reduce context switching: use time-blocking and single-tasking for deep work sessions.
-- Learn by building: pair theory with small lab projects and real-world simulation.
-- Track and reflect: short retros every week to refine tactics and remove distractions.
-
----
-
-## 🎯 High-level Goals
-
-- Reclaim focused study time (2–4 hours/day of deep work, 5 days/week)
-- Complete HTB CDSA path and document learnings in a Git-backed Obsidian vault
-- Build a production-like SIEM lab and produce repeatable detection playbooks
-- Automate repetitive analysis tasks with Python and CI/CD flows
-- Prepare for practical SOC roles and assessments through hands-on exercises
-
----
-
-## 🛠️ Study System (How I Learn)
-
-- Time blocking: 90–120 minute deep-work blocks (no notifications, phone on airplane mode)
-- Pomodoro for lighter tasks: 25/5 cycles when preparing notes or reading
-- Active recall & spaced repetition: short flashcards and question-driven reviews
-- Deliberate practice: isolate fundamentals (log formats, TTPs, detection math), practice until comfortable
-- Project-based practice: each learning block maps to a small lab exercise or one TODO in the Obsidian vault
-- Weekly review: 30-minute retrospective — what went well, what's distracting, next week's focus
-
----
-
-## 🛣️ SOC Roadmap (prioritized)
-
-1. Foundations (0–4 weeks)
-   - Linux basics, networking fundamentals, logging concepts (syslog, journald)
-   - Tools: tcpdump, netstat, lsof, grep/awk
-2. SIEM & Logging (4–12 weeks)
-   - Wazuh/ELK/Filebeat, log collection pipelines, parsing common log sources
-   - Build basic correlation and alerts, tune rules to reduce false positives
-3. Detection Engineering (12–24 weeks)
-   - Translate ATT&CK techniques into detections, test with benign and malicious telemetry
-   - Use Suricata, YARA, Sigma rules; create testcases and validation harnesses
-4. Incident Response & Forensics (24–36 weeks)
-   - Triage, evidence collection, timeline building, containment strategies
-   - Practice post-incident reporting and lessons learned
-5. Automation & Scale (36+ weeks)
-   - Python automation, playbooks, runbooks, CI/CD for detection rules, SBOMs and supply chain checks
-
-Each stage includes a small project with measurable output (playbook, detection rule set, lab notebook).
-
----
-
-## 📅 Weekly Routine (example)
-
-- Monday: Foundations / theory (90–120 min deep block)
-- Tuesday: Lab build / hands-on (90–120 min deep block)
-- Wednesday: Detection engineering / rule writing (90–120 min deep block)
-- Thursday: Automation / scripting (60–90 min)
-- Friday: Review, documentation, and portfolio updates (60–90 min)
-- Weekend: Light practice or community CTFs (optional)
-
-Use a single calendar event named "Deep Work — SOC" and block the time consistently.
-
----
-
-## 🧰 Minimal Distraction Toolkit
-
-- Notes: Obsidian (git-backed vault)
-- Focus: Forest, LeechBlock (or browser site-blocker), Do Not Disturb schedule
-- Task tracking: simple TODOs in Obsidian daily note, one MIT (most important task) per session
-- Environment: clean desktop, headphones, and terminal-first workflow
-
----
-
-## 🏗️ Projects (practice-focused)
-
-1. SIEM Modernization Lab — small, repeatable Vagrant/Docker lab with Wazuh + Suricata
-   - Goal: ship a set of validated detection rules and a tuning checklist
-2. DevSecOps Container Security — scanning, SBOM generation, and CI remediation hooks
-   - Goal: automated pipeline that fails builds on high-critical CVEs
-3. Mobile Forensics Toolkit — short scripts for APK parsing and common artifact extraction
-   - Goal: reproducible extraction playbook and example cases
-4. HTB CTF Vault — Obsidian vault with writeups, reproducible labs, and learning notes
-   - Goal: one documented learning artifact per week
-
----
-
-## 🔗 Where I share progress
-
-- GitHub: https://github.com/bugbountyguy121
-- Obsidian Vault: (private repo synced to this account)
-- Hack The Box: HTB CDSA path in progress
-
----
-
-## 📌 Quick Tips (for the days you struggle to focus)
-
-- Drop the goal: just open your terminal and run one command; momentum matters
-- Shorten the session: 50 minutes of focused work beats 3 hours of distraction
-- Re-evaluate targets weekly: if something attracts too much friction, break it down
-
----
-
-## 📝 Notes & Next Steps
-
-- This README is intentionally learning-centered now. I will keep project descriptions concise and surface only what helps my daily practice.
-- If you want, I can:
-  - Add automated badges that show weekly progress from the Obsidian vault
-  - Create small lab README templates for each project so every exercise becomes reproducible
-  - Generate a 12-week plan with daily micro-tasks you can follow
-
----
-
-**Last Updated**: 2026-10-13 | **Status**: 🟢 Learning-Focused | **Next Focus**: Foundations — log formats & Linux basics
+<!--
+  README for Oussama (bugbountyguy121)
+  Purpose: present a personal, learning-focused SOC journey and study system.
+  Accuracy rules observed: no invented certifications or outcomes; OFPPT diploma included per request.
+-->
 
 <div align="center">
+
+# Oussama — Building Practical SOC Skills, One Lab at a Time
 
 [![GitHub](https://img.shields.io/badge/GitHub-bugbountyguy121-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bugbountyguy121)
-[![Hack The Box](https://img.shields.io/badge/HackTheBox-CDSA%20Path-111827?style=for-the-badge&logo=hackthebox&logoColor=00F5A0)](https://www.hackthebox.com/)
 
 </div>
+
+---
+
+## Who I am
+
+I’m Oussama. I hold an OFPPT Specialized Technician diploma in Cybersecurity and I genuinely enjoy exploring how systems work, how attackers leave traces, and how defenders convert noisy data into useful decisions.
+
+I’m not presenting a finished résumé — I’m publishing my learning process. My focus is to build real SOC competence through deliberate practice, reproducible labs, and a learning system that helps me stay focused and make steady progress.
+
+---
+
+## What I’m working toward
+
+- Transitioning into practical SOC work: data collection, detection engineering, triage, and incident response.
+- Learning how to learn: develop mental models, connect concepts, test understanding by reproducing and explaining, then document the results.
+- Building a sustainable focus system to reduce distractions and keep consistent progress.
+
+---
+
+## Learning Philosophy (my workflow)
+
+I use a simple progression for every topic I study:
+
+Understand → Observe → Reproduce → Connect → Explain → Test → Document
+
+- Understand: learn *why* a thing exists and the core concept.
+- Observe: collect real telemetry or examples that show the concept in practice.
+- Reproduce: recreate the behaviour in a small, repeatable lab.
+- Connect: map how this piece relates to other systems or techniques (e.g., how a syscall shows up in logs).
+- Explain: write a short explanation in my own words and produce a minimal demonstration.
+- Test: design a simple validation case or test harness to confirm the detection or analysis works.
+- Document: keep a concise, reproducible lab note in my Obsidian vault (git-backed).
+
+This progression keeps learning active and produces evidence rather than claims.
+
+---
+
+## How I manage focus (sustainable habits)
+
+- Small, realistic sessions: when concentration is hard I prefer one 30–50 minute focused session to an unsustainable marathon.
+- Deep blocks when possible: 90–120 minutes of single-task work for labs or complex problems.
+- Single-MIT rule: each session has one Most Important Task — a clear, small outcome (e.g., "parse SSH logs" or "write one Sigma rule").
+- Minimise friction: terminal-first setup, phone away, browser site-blocker during deep blocks.
+- Weekly 30-minute retrospective: what worked, what distracted me, and what one change I’ll try next week.
+
+These are habits I practice and adapt — not a rigid productivity prescription.
+
+---
+
+## Current technical priorities (ongoing & near-term)
+
+Ongoing (currently learning / practising):
+- Foundations: Linux, networking basics, and common log sources (auth, syslog, web, Windows event basics).
+- SIEM fundamentals: log ingestion, parsing, and simple correlation (Wazuh / Filebeat concepts in labs).
+- Detection engineering basics: ATT&CK-mapped detections, Sigma rules, and simple Suricata/IDS signatures.
+- Incident triage: building timelines and extracting relevant artifacts from logs and disk images.
+
+Planned (next projects):
+- Reproducible SIEM lab (Docker): ingest sample telemetry, write 10 validated detection rules, and a tuning checklist.
+- Small automation: Python scripts that parse log samples and produce test cases for detection rules.
+- One-week learning sprints: short, focused projects that end with a documented lab note.
+
+---
+
+## Projects (clear status)
+
+I separate projects into Completed (evidence present), Ongoing, and Planned. I avoid claiming finished outcomes until I have reproducible evidence.
+
+Completed
+- Personal notes and examples in my Obsidian vault (private): small writeups, parsing examples, and checklists.
+
+Ongoing
+- SIEM Modernization Lab — building a minimal Docker lab with log generators and basic rule tests.
+- HTB CDSA Path — in progress (practical exercises and challenges; progress recorded in private vault).
+
+Planned
+- Mobile Forensics Toolkit: short, reusable scripts for APK inspection and artifact extraction.
+- DevSecOps container checks: SBOM-based scans and a pipeline demonstration.
+
+If you want to see a public demonstration for any of the above, I can extract a minimal, reproducible example and publish it as a focused repo.
+
+---
+
+## Weekly rhythm (example)
+
+- Monday — Foundations (reading + one micro-lab, 30–90 min)
+- Tuesday — Hands-on lab (build or reproduce a behaviour, 60–120 min)
+- Wednesday — Detection writing & testing (write one Sigma/Suricata rule + test)
+- Thursday — Automation (small script or test harness, 30–60 min)
+- Friday — Document & reflect (write a 15–30 min lab note and update vault)
+- Weekend — Optional light practice or CTFs (short sessions)
+
+This is a flexible rhythm — I prioritise consistency over intensity.
+
+---
+
+## How I record progress
+
+- Obsidian (git-backed): primary lab notes and learning artifacts (private). When a lab is small and reproducible, I publish it as a public repo.
+- This GitHub profile: a public snapshot of what I’m learning and building.
+
+---
+
+## A few concrete examples I can share on request
+
+- A small Docker lab that generates SSH and web logs and shows how a simple correlation reduces noise.
+- One Sigma rule with a short test harness that shows a true positive and a controlled false positive.
+- A Python script that parses sample logs and extracts fields used by simple detections.
+
+Tell me which example you'd like first and I’ll publish a focused, minimal repo for it.
+
+---
+
+## Notes and accuracy checks
+
+- Diploma: OFPPT Specialized Technician in Cybersecurity — please confirm the exact diploma title/translation if you want it worded differently.
+- HTB CDSA: stated as "in progress" — I have not claimed completion.
+- Obsidian vault: private unless you ask me to publish selected notes.
+
+If any of these facts need correction, tell me which line to change.
+
+---
+
+_Last updated: 2026-10-13_
