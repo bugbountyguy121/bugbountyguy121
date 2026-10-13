@@ -1,177 +1,136 @@
 <div align="center">
 
-![Profile Banner](https://readme-typing-svg.demolab.com?font=Courier+New&size=35&duration=4000&pause=1000&color=00F5A0&center=true&vCenter=true&width=900&lines=SECURITY+OPERATIONS+CENTER;Threat+Detection+Engineer;SOC+Analyst+%7C+HTB+CDSA+Candidate;DevSecOps+%26+Security+Automation;Linux+Infrastructure+%26+Forensics;Enterprise+Security+Architecture)
+![Profile Banner](https://readme-typing-svg.demolab.com?font=Courier+New&size=35&duration=4000&pause=1000&color=00F5A0&center=true&vCenter=true&width=900&lines=SECURITY+OPERATIONS+CENTER;Threat+Detection;Learning+How+to+Learn)
 
 </div>
 
 ---
 
-<div align="center">
+## 🎯 Refocus: Learning How to Learn (SOC Journey)
 
-## 🎯 Professional Overview
+I'm a cybersecurity practitioner shifting my primary goal from showing skills to learning how to learn deeply. My current mission is to reduce distractions, regain sustained focus, and build a complete, practical understanding of Security Operations Center (SOC) work — from data collection to detection engineering and incident response.
 
-Cybersecurity professional specializing in SOC operations, threat detection, and security automation. Currently pursuing the HTB CDSA pathway with hands-on experience in SIEM architecture, incident response, and DevSecOps practices.
-
-[![](https://img.shields.io/badge/Focus-SOC%20%2F%20Detection%20Engineering-00F5A0?style=flat-square&logo=security&logoColor=white)](https://github.com/bugbountyguy121)
-[![](https://img.shields.io/badge/Expertise-Linux%20%2F%20Infrastructure-00F5A0?style=flat-square&logo=linux&logoColor=white)](https://github.com/bugbountyguy121)
-[![](https://img.shields.io/badge/Path-HTB%20CDSA-00F5A0?style=flat-square&logo=hackthebox&logoColor=white)](https://www.hackthebox.com/)
-
-</div>
+This README documents my learning system, weekly rhythm, roadmap, and the projects I use to practice what I learn.
 
 ---
 
-## 🛡️ Core Competencies
+## 🧭 Learning Philosophy
 
-<div align="center">
-
-| **Domain** | **Expertise** |
-|:---:|:---|
-| **SIEM & Detection** | Wazuh, Suricata IDS/IPS, log aggregation, alert tuning, threat correlation |
-| **Forensics & IR** | Digital triage, incident response workflows, evidence preservation, timeline analysis |
-| **Security Tools** | Wireshark, Burp Suite, Nmap, Metasploit, OpenVPN, tcpdump, grep/awk automation |
-| **Infrastructure** | Debian, Kali Linux, Docker containerization, Linux hardening, secure deployments |
-| **Automation** | Python security scripts, CI/CD security, vulnerability scanning, DevSecOps pipelines |
-| **Methodologies** | MITRE ATT&CK, OWASP Top 10, CIS Controls, threat modeling, log analysis frameworks |
-
-</div>
+- Prioritize depth over breadth: focus on one topic at a time with deliberate practice and feedback.
+- Reduce context switching: use time-blocking and single-tasking for deep work sessions.
+- Learn by building: pair theory with small lab projects and real-world simulation.
+- Track and reflect: short retros every week to refine tactics and remove distractions.
 
 ---
 
-## 💻 Tech Arsenal
+## 🎯 High-level Goals
 
-<div align="center">
-
-### Operating Systems & Infrastructure
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### Security & Monitoring
-![Wazuh](https://img.shields.io/badge/Wazuh-1F2937?style=for-the-badge&logo=elasticsearch&logoColor=00F5A0)
-![Suricata](https://img.shields.io/badge/Suricata-1F2937?style=for-the-badge&logo=security&logoColor=FF6B6B)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6600?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-1F2937?style=for-the-badge&logo=security&logoColor=EF3B2D)
-
-### Development & Automation
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-FFA000?style=for-the-badge&logo=openvpn&logoColor=white)
-
-### Frameworks & Methodologies
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Threat%20Modeling-1F2937?style=for-the-badge)
-![OWASP](https://img.shields.io/badge/OWASP%20Top%2010-Web%20Security-2E8555?style=for-the-badge)
-![CIS Controls](https://img.shields.io/badge/CIS%20Controls-Compliance-1F2937?style=for-the-badge)
-
-</div>
+- Reclaim focused study time (2–4 hours/day of deep work, 5 days/week)
+- Complete HTB CDSA path and document learnings in a Git-backed Obsidian vault
+- Build a production-like SIEM lab and produce repeatable detection playbooks
+- Automate repetitive analysis tasks with Python and CI/CD flows
+- Prepare for practical SOC roles and assessments through hands-on exercises
 
 ---
 
-## 🏗️ Architecture & Major Projects
+## 🛠️ Study System (How I Learn)
 
-### 1. **SIEM Modernization Lab** 🔍
-**Enterprise-Grade Log Analysis Platform**
-- Architected a virtual SOC environment integrating Wazuh SIEM + Suricata IDS/IPS on Kali Linux
-- Configured centralized log forwarding, correlation rules, and automated response workflows
-- Built detection logic for common attack patterns (brute force, privilege escalation, lateral movement)
-- Documented attack scenarios, forensic triage procedures, and log analysis methodologies
-- **Tech Stack**: Wazuh, Suricata, Elasticsearch, Filebeat, tcpdump
-
-### 2. **DevSecOps Container Security** 🐳
-**Supply Chain & Vulnerability Assessment**
-- Evaluated container image vulnerabilities using Docker + Trivy scanning workflows
-- Generated CycloneDX SBOM reports for supply chain risk analysis
-- Implemented secure CI/CD practices and vulnerability remediation pipelines
-- Analyzed runtime behavior and conducted security policy enforcement testing
-- **Tech Stack**: Docker, Trivy, Python automation scripts, SBOM standards
-
-### 3. **Mobile Forensics & Reverse Engineering** 📱
-**Android APK Analysis Framework**
-- Developed Python-based asset carving and data extraction workflows
-- Leveraged JADX decompilers for APK reverse engineering and bytecode analysis
-- Built SQLite and SQLCipher database parsers for encrypted data extraction
-- Automated APK manifest parsing, permission auditing, and forensic artifact recovery
-- **Tech Stack**: Python, JADX, SQLite3, cryptographic analysis
-
-### 4. **Automated HTB CTF Vault** 📚
-**Knowledge Management & Continuous Integration**
-- Engineered a Git-backed Obsidian Markdown vault for persistent learning documentation
-- Implemented automated syncing with GitHub for CDSA path progress tracking
-- Organized SIEM visualizations, exploitation techniques, and incident analysis examples
-- Created reusable note templates for consistent documentation and knowledge transfer
-- **Tech Stack**: Obsidian, Git, GitHub, Markdown automation
+- Time blocking: 90–120 minute deep-work blocks (no notifications, phone on airplane mode)
+- Pomodoro for lighter tasks: 25/5 cycles when preparing notes or reading
+- Active recall & spaced repetition: short flashcards and question-driven reviews
+- Deliberate practice: isolate fundamentals (log formats, TTPs, detection math), practice until comfortable
+- Project-based practice: each learning block maps to a small lab exercise or one TODO in the Obsidian vault
+- Weekly review: 30-minute retrospective — what went well, what's distracting, next week's focus
 
 ---
 
-## 📊 GitHub Performance
+## 🛣️ SOC Roadmap (prioritized)
 
-<div align="center">
+1. Foundations (0–4 weeks)
+   - Linux basics, networking fundamentals, logging concepts (syslog, journald)
+   - Tools: tcpdump, netstat, lsof, grep/awk
+2. SIEM & Logging (4–12 weeks)
+   - Wazuh/ELK/Filebeat, log collection pipelines, parsing common log sources
+   - Build basic correlation and alerts, tune rules to reduce false positives
+3. Detection Engineering (12–24 weeks)
+   - Translate ATT&CK techniques into detections, test with benign and malicious telemetry
+   - Use Suricata, YARA, Sigma rules; create testcases and validation harnesses
+4. Incident Response & Forensics (24–36 weeks)
+   - Triage, evidence collection, timeline building, containment strategies
+   - Practice post-incident reporting and lessons learned
+5. Automation & Scale (36+ weeks)
+   - Python automation, playbooks, runbooks, CI/CD for detection rules, SBOMs and supply chain checks
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bugbountyguy121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&text_color=30B0E0&title_color=00F5A0&icon_color=00F5A0)](https://github.com/bugbountyguy121)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bugbountyguy121&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&text_color=30B0E0&title_color=00F5A0)](https://github.com/bugbountyguy121)
-
-</div>
-
----
-
-## 🎓 Certifications & Learning Path
-
-<div align="center">
-
-| Certification | Status | Focus Area |
-|:---|:---:|:---|
-| **HTB CDSA** | 🟡 In Progress | SOC Operations, Threat Detection, Incident Response |
-| **Linux System Administration** | 🟢 Completed | Linux hardening, user management, system security |
-| **Network Security Fundamentals** | 🟢 Completed | Protocol analysis, packet inspection, traffic behavior |
-| **Web Application Security** | 🟢 Completed | OWASP Top 10, vulnerability assessment, exploitation |
-
-</div>
+Each stage includes a small project with measurable output (playbook, detection rule set, lab notebook).
 
 ---
 
-## 🚀 Current Focus Areas
+## 📅 Weekly Routine (example)
 
-- 🔴 Advanced SIEM Tuning: reducing false positives and optimizing correlation logic
-- 🔴 Incident Response Workflows: automated triage, evidence preservation, timeline analysis
-- 🔴 Python Security Automation: log parsing, vulnerability scanning, data enrichment
-- 🔴 Linux Hardening: kernel hardening, secure deployment patterns, system integrity
-- 🔴 Threat Intelligence Integration: MITRE ATT&CK mapping and TTP enrichment
+- Monday: Foundations / theory (90–120 min deep block)
+- Tuesday: Lab build / hands-on (90–120 min deep block)
+- Wednesday: Detection engineering / rule writing (90–120 min deep block)
+- Thursday: Automation / scripting (60–90 min)
+- Friday: Review, documentation, and portfolio updates (60–90 min)
+- Weekend: Light practice or community CTFs (optional)
+
+Use a single calendar event named "Deep Work — SOC" and block the time consistently.
 
 ---
 
-## 🔗 Professional Connections
+## 🧰 Minimal Distraction Toolkit
+
+- Notes: Obsidian (git-backed vault)
+- Focus: Forest, LeechBlock (or browser site-blocker), Do Not Disturb schedule
+- Task tracking: simple TODOs in Obsidian daily note, one MIT (most important task) per session
+- Environment: clean desktop, headphones, and terminal-first workflow
+
+---
+
+## 🏗️ Projects (practice-focused)
+
+1. SIEM Modernization Lab — small, repeatable Vagrant/Docker lab with Wazuh + Suricata
+   - Goal: ship a set of validated detection rules and a tuning checklist
+2. DevSecOps Container Security — scanning, SBOM generation, and CI remediation hooks
+   - Goal: automated pipeline that fails builds on high-critical CVEs
+3. Mobile Forensics Toolkit — short scripts for APK parsing and common artifact extraction
+   - Goal: reproducible extraction playbook and example cases
+4. HTB CTF Vault — Obsidian vault with writeups, reproducible labs, and learning notes
+   - Goal: one documented learning artifact per week
+
+---
+
+## 🔗 Where I share progress
+
+- GitHub: https://github.com/bugbountyguy121
+- Obsidian Vault: (private repo synced to this account)
+- Hack The Box: HTB CDSA path in progress
+
+---
+
+## 📌 Quick Tips (for the days you struggle to focus)
+
+- Drop the goal: just open your terminal and run one command; momentum matters
+- Shorten the session: 50 minutes of focused work beats 3 hours of distraction
+- Re-evaluate targets weekly: if something attracts too much friction, break it down
+
+---
+
+## 📝 Notes & Next Steps
+
+- This README is intentionally learning-centered now. I will keep project descriptions concise and surface only what helps my daily practice.
+- If you want, I can:
+  - Add automated badges that show weekly progress from the Obsidian vault
+  - Create small lab README templates for each project so every exercise becomes reproducible
+  - Generate a 12-week plan with daily micro-tasks you can follow
+
+---
+
+**Last Updated**: 2026-10-13 | **Status**: 🟢 Learning-Focused | **Next Focus**: Foundations — log formats & Linux basics
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-bugbountyguy121-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bugbountyguy121)
 [![Hack The Box](https://img.shields.io/badge/HackTheBox-CDSA%20Path-111827?style=for-the-badge&logo=hackthebox&logoColor=00F5A0)](https://www.hackthebox.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com)
-[![X](https://img.shields.io/badge/X-@bugbountyguy121-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com)
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 Philosophy
-
-> "Security is not a product, but a process. Every line of code, every configuration decision, and every investigation teaches something valuable. Automation amplifies expertise."
-
-**Building enterprise-grade security, one lab at a time.**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bugbountyguy121&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F5A0&line=30B0E0&point=00F5A0" alt="GitHub Activity Graph" />
-
----
-
-**Last Updated**: 2026-10-12 | **Status**: 🟢 Active Learner | **Next Focus**: Advanced Incident Response
-
-<img src="https://komarev.com/ghpvc/?username=bugbountyguy121&label=PROFILE+VIEWS&color=00F5A0&style=flat-square" alt="Profile Views Counter" />
 
 </div>
