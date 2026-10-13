@@ -1,137 +1,172 @@
 <!--
-  README for Oussama (bugbountyguy121)
-  Purpose: present a personal, learning-focused SOC journey and study system.
-  Accuracy rules observed: no invented certifications or outcomes; OFPPT diploma included per request.
+  README for bugbountyguy121
+  Purpose: a high-impact cyber sec / SOC / bug bounty / pentesting profile
+  Keep it real, sharp, and focused on learning + execution.
 -->
 
 <div align="center">
 
-# Oussama — Building Practical SOC Skills, One Lab at a Time
+# Oussama
+### SOC • Bug Bounty • Penetration Testing • Learning How to Learn
 
-[![GitHub](https://img.shields.io/badge/GitHub-bugbountyguy121-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bugbountyguy121)
+<p>
+  <a href="https://github.com/bugbountyguy121"><img src="https://img.shields.io/badge/GitHub-bugbountyguy121-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="Email" /></a>
+</p>
+
+[![GitHub followers](https://img.shields.io/github/followers/bugbountyguy121?label=Followers&style=social)](https://github.com/bugbountyguy121)
+[![GitHub User's stars](https://img.shields.io/github/stars/bugbountyguy121?style=social)](https://github.com/bugbountyguy121)
+[![Profile views](https://komarev.com/ghpvc/?username=bugbountyguy121&style=for-the-badge&color=0E75B6)](https://github.com/bugbountyguy121)
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F5D4&center=true&vCenter=true&width=900&lines=Learning+how+to+learn.;Cybersecurity+%7C+SOC+%7C+Bug+Bounty;Penetration+Testing+%7C+Hands-on+Labs;Discipline+%7C+Execution+%7C+Gym+Rat" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## Who I am
+## About me
 
-I’m Oussama. I hold an OFPPT Specialized Technician diploma in Cybersecurity and I genuinely enjoy exploring how systems work, how attackers leave traces, and how defenders convert noisy data into useful decisions.
+I’m Oussama — currently building a practical cybersecurity foundation around SOC work, bug bounty thinking, and penetration testing. My focus is not just consuming theory; it’s about building repeatable systems, sharpening detection instincts, and turning curiosity into evidence.
 
-I’m not presenting a finished résumé — I’m publishing my learning process. My focus is to build real SOC competence through deliberate practice, reproducible labs, and a learning system that helps me stay focused and make steady progress.
+I believe the strongest edge in cyber isn’t just “knowing tools” — it’s learning how to learn, staying consistent, and building a real understanding of how systems behave under pressure.
 
----
-
-## What I’m working toward
-
-- Transitioning into practical SOC work: data collection, detection engineering, triage, and incident response.
-- Learning how to learn: develop mental models, connect concepts, test understanding by reproducing and explaining, then document the results.
-- Building a sustainable focus system to reduce distractions and keep consistent progress.
+- Strong interest in: SOC operations, detection engineering, triage, adversary behavior, web app security, and offensive security fundamentals
+- Main mindset: disciplined, curious, lab-driven, and focused on execution
+- Personal edge: I bring the same intensity to learning cybersecurity that I bring to training hard in the gym — consistency beats hype
 
 ---
 
-## Learning Philosophy (my workflow)
+## Current focus
 
-I use a simple progression for every topic I study:
+- Real-world security fundamentals: Linux, networking, logs, authentication, attack flow analysis
+- SOC-oriented learning: telemetry, alert triage, detection logic, incident context, investigation flow
+- Bug bounty / web testing: recon, input handling, auth flaws, business logic weaknesses, reporting mindset
+- Penetration testing fundamentals: enumeration, exploitation flow, privilege boundaries, attack chaining
+- Documentation & reproducibility: writing what I learn so it becomes knowledge, not just memory
+
+---
+
+## Learning system
+
+I follow a simple loop for every topic I study:
 
 Understand → Observe → Reproduce → Connect → Explain → Test → Document
 
-- Understand: learn *why* a thing exists and the core concept.
-- Observe: collect real telemetry or examples that show the concept in practice.
-- Reproduce: recreate the behaviour in a small, repeatable lab.
-- Connect: map how this piece relates to other systems or techniques (e.g., how a syscall shows up in logs).
-- Explain: write a short explanation in my own words and produce a minimal demonstration.
-- Test: design a simple validation case or test harness to confirm the detection or analysis works.
-- Document: keep a concise, reproducible lab note in my Obsidian vault (git-backed).
+This keeps my learning practical and measurable.
 
-This progression keeps learning active and produces evidence rather than claims.
-
----
-
-## How I manage focus (sustainable habits)
-
-- Small, realistic sessions: when concentration is hard I prefer one 30–50 minute focused session to an unsustainable marathon.
-- Deep blocks when possible: 90–120 minutes of single-task work for labs or complex problems.
-- Single-MIT rule: each session has one Most Important Task — a clear, small outcome (e.g., "parse SSH logs" or "write one Sigma rule").
-- Minimise friction: terminal-first setup, phone away, browser site-blocker during deep blocks.
-- Weekly 30-minute retrospective: what worked, what distracted me, and what one change I’ll try next week.
-
-These are habits I practice and adapt — not a rigid productivity prescription.
+- Understand the concept and why it matters
+- Observe real examples and logs or behavior
+- Reproduce it in a small lab or scenario
+- Connect it to other systems and attack paths
+- Explain it in plain language
+- Test the pattern or detection
+- Document the outcome so it sticks
 
 ---
 
-## Current technical priorities (ongoing & near-term)
+## Security stack & tools
 
-Ongoing (currently learning / practising):
-- Foundations: Linux, networking basics, and common log sources (auth, syslog, web, Windows event basics).
-- SIEM fundamentals: log ingestion, parsing, and simple correlation (Wazuh / Filebeat concepts in labs).
-- Detection engineering basics: ATT&CK-mapped detections, Sigma rules, and simple Suricata/IDS signatures.
-- Incident triage: building timelines and extracting relevant artifacts from logs and disk images.
+### Offensive / testing
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6A00?style=flat-square&logo=burp&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square&logo=nmap&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-Planned (next projects):
-- Reproducible SIEM lab (Docker): ingest sample telemetry, write 10 validated detection rules, and a tuning checklist.
-- Small automation: Python scripts that parse log samples and produce test cases for detection rules.
-- One-week learning sprints: short, focused projects that end with a documented lab note.
+### SOC / detection / analysis
+![SIEM](https://img.shields.io/badge/SIEM-Detection%20Engineering-5A67D8?style=flat-square)
+![Logs](https://img.shields.io/badge/Logs-Analysis-4C9A2A?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-CLI-1F2937?style=flat-square)
+![Networking](https://img.shields.io/badge/Networking-Basics-FFB000?style=flat-square)
 
----
-
-## Projects (clear status)
-
-I separate projects into Completed (evidence present), Ongoing, and Planned. I avoid claiming finished outcomes until I have reproducible evidence.
-
-Completed
-- Personal notes and examples in my Obsidian vault (private): small writeups, parsing examples, and checklists.
-
-Ongoing
-- SIEM Modernization Lab — building a minimal Docker lab with log generators and basic rule tests.
-- HTB CDSA Path — in progress (practical exercises and challenges; progress recorded in private vault).
-
-Planned
-- Mobile Forensics Toolkit: short, reusable scripts for APK inspection and artifact extraction.
-- DevSecOps container checks: SBOM-based scans and a pipeline demonstration.
-
-If you want to see a public demonstration for any of the above, I can extract a minimal, reproducible example and publish it as a focused repo.
+### Workflow
+![Git](https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository%20Driven-181717?style=flat-square&logo=github&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-Notes-483699?style=flat-square&logo=obsidian&logoColor=white)
 
 ---
 
-## Weekly rhythm (example)
+## Roadmap
 
-- Monday — Foundations (reading + one micro-lab, 30–90 min)
-- Tuesday — Hands-on lab (build or reproduce a behaviour, 60–120 min)
-- Wednesday — Detection writing & testing (write one Sigma/Suricata rule + test)
-- Thursday — Automation (small script or test harness, 30–60 min)
-- Friday — Document & reflect (write a 15–30 min lab note and update vault)
-- Weekend — Optional light practice or CTFs (short sessions)
+### Current learning path
+- Linux fundamentals and command-line workflow
+- Networking and protocol basics
+- Log analysis and common telemetry sources
+- Recon and enumeration in web/security testing
+- Bash and Python for automation
+- Detection logic and alert interpretation
+- Practical labs, challenge walkthroughs, and small writeups
 
-This is a flexible rhythm — I prioritise consistency over intensity.
-
----
-
-## How I record progress
-
-- Obsidian (git-backed): primary lab notes and learning artifacts (private). When a lab is small and reproducible, I publish it as a public repo.
-- This GitHub profile: a public snapshot of what I’m learning and building.
-
----
-
-## A few concrete examples I can share on request
-
-- A small Docker lab that generates SSH and web logs and shows how a simple correlation reduces noise.
-- One Sigma rule with a short test harness that shows a true positive and a controlled false positive.
-- A Python script that parses sample logs and extracts fields used by simple detections.
-
-Tell me which example you'd like first and I’ll publish a focused, minimal repo for it.
+### Next milestones
+- Build a repeatable security lab setup
+- Create small Python tools for log parsing and automation
+- Work through hands-on security exercises and write concise notes
+- Continue developing a structured bug bounty / web app testing mindset
+- Strengthen SOC-style thinking: detection, validation, and documentation
 
 ---
 
-## Notes and accuracy checks
+## Projects & public work
 
-- Diploma: OFPPT Specialized Technician in Cybersecurity — please confirm the exact diploma title/translation if you want it worded differently.
-- HTB CDSA: stated as "in progress" — I have not claimed completion.
-- Obsidian vault: private unless you ask me to publish selected notes.
+I keep my public repos focused on evidence, notes, and learning progress.
 
-If any of these facts need correction, tell me which line to change.
+- [bugbountyguy121](https://github.com/bugbountyguy121/bugbountyguy121) — personal profile / learning hub
+- [-cybersec-journal-burp-suite-labs](https://github.com/bugbountyguy121/-cybersec-journal-burp-suite-labs) — cybersecurity journal + Burp Suite labs
+- [intro-to-cybersecurity-dojo](https://github.com/bugbountyguy121/intro-to-cybersecurity-dojo) — intro learning repo
+- [coding-exercises](https://github.com/bugbountyguy121/coding-exercises) — practice and coding projects
+- [HACKER_RANK_PYTHON](https://github.com/bugbountyguy121/HACKER_RANK_PYTHON) — Python practice
+- [progress](https://github.com/bugbountyguy121/progress) — project tracking and config notes
 
 ---
 
-_Last updated: 2026-10-13_
+## Discipline: the gym mindset
+
+I do not chase random motivation. I chase systems.
+
+> Disciplined execution > loud claims.
+
+The same way I train hard in the gym, I train hard in learning:
+
+- Consistency beats intensity
+- Small wins compound
+- Most progress comes from repeatability
+- A strong process creates long-term results
+
+I’m building skill with the mindset of an athlete and the focus of a security operator.
+
+---
+
+## GitHub stats
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bugbountyguy121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bugbountyguy121&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=bugbountyguy121&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+---
+
+## Status
+
+I’m in the build phase.
+
+Not “finished.” Not “perfect.”
+
+Just a focused learner stacking real skills, documenting the process, and getting sharper every week.
+
+If you’re into SOC work, bug bounty, pentesting, or building a serious learning system, let’s connect.
+
+---
+
+<div align="center">
+
+### "Train the mind. Train the system. Train the habit."
+
+[![GitHub](https://img.shields.io/badge/GitHub-bugbountyguy121-181717?style=for-the-badge&logo=github)](https://github.com/bugbountyguy121)
+
+</div>
